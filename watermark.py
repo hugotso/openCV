@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 # type np.uint8 np.float16 np.float32
-# type np.uint8 np.float16 np.float32
-# type np.uint8 np.float16 np.float32
+
 img = cv2.imread('cover.jpg')
 img = img.astype(np.float16)
 watermark_img = cv2.imread('watermark2.jpg')
